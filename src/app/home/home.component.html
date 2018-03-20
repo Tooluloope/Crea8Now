@@ -1,0 +1,61 @@
+<!--Main Navigation-->
+<header>
+
+    <!--Navbar-->
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <!-- Navbar brand -->
+        <logo>
+            <a style="font-size: 59px;color: black;" class="navbar-brand">
+                <img class="logo" src="../../assets/new_logo.png" alt="">
+            </a>
+        </logo>
+
+        <!-- Collapsible content -->
+        <links>
+
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto margin">
+                <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                    <a routerLink='' class="nav-link waves-light" mdbRippleRadius>Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink='howitworks' class="nav-link waves-light" mdbRippleRadius>How It Works</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink='services' class="nav-link waves-light" mdbRippleRadius>Services</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink='contact' class="nav-link waves-light" mdbRippleRadius>Contact</a>
+                </li>
+
+                <!-- <li class="nav-item signUp">
+                    <a class="pl-5 pr-5 nav-link waves-light" mdbRippleRadius>Sign Up</a>
+                </li> -->
+            </ul>
+            <!-- Links -->
+
+
+        </links>
+    </mdb-navbar>
+
+    <!--Intro Section-->
+    <section class="view intro-2">
+        <div class="full-bg-img">
+            <div class=" container-fluid  heights">
+                <div class="row  height" style="padding-top: 30px;">
+                    <div class="col-md-6 text-center pad test create">
+                        <h1> Get Quality creative services. </h1>
+                        <h1> FAST</h1>
+                        <a routerLink="services" class="btn btn-outline-black">Quick Service</a>
+
+                    </div>
+
+                    <div class="col-md-6 svg display" data-wow-delay="0.3s">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</header>
+<!--Main Navigation-->

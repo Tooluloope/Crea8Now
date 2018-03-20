@@ -1,0 +1,101 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+// home.scss
+.intro-2 {
+    background: url("./assets/Group145.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.btn .fa {
+    margin-left: 3px;
+}
+
+.top-nav-collapse {
+    background-color: #54ABEE !important;
+}
+
+app-form .navbar:not(.top-nav-collapse) {
+    background: #54ABEE !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #54ABEE !important;
+    }
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+.hm-gradient .full-bg-img {
+    background: linear-gradient(45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%);
+}
+
+@media (max-width: 450px) {
+    .margins {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 740px) {
+    .full-height app-contact header,
+    .full-height app-contact header .view {
+        height: 1020px;
+    }
+}
+
+@media (max-width: 740px) {
+    .full-height app-how-it-works header,
+    .full-height app-how-it-works header .view {
+        height: 1800px;
+    }
+}
+
+@media (max-width: 740px) {
+    .full-height app-services header,
+    .full-height app-services header .view {
+        height: 1420px;
+    }
+}
+
+@media (max-width: 740px) {
+    .full-height app-home header,
+    .full-height app-home header .view {
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 740px) {
+    .full-height app-form header,
+    .full-height app-form header .view {
+        height: 1020px;
+    }
+}
+
+// howit works
+.intro-3 {
+    background: url("./assets/howitworks.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.intro-4 {
+    background: url("./assets/About.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+@media (max-width: 740px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+.logo {
+    width: 150px;
+}

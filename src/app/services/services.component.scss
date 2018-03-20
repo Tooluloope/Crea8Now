@@ -1,0 +1,87 @@
+logo {
+    font-family: 'Rancho', cursive;
+}
+
+@media (min-width: 992px) {
+    li {
+        margin: 0 20px;
+    }
+}
+
+.signUp {
+    background-color: white;
+    border: 0;
+    border-radius: 50px;
+}
+
+.signUp:hover {
+    background-color: #54ABEE;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.signUp a {
+    color: #54ABEE !important;
+    font-weight: bold;
+}
+
+.signUp a:hover {
+    color: white !important;
+    font-weight: bold;
+}
+
+.active a {
+    padding: 0.5rem 2rem;
+    border: 1px solid black;
+    color: black !important;
+    font-weight: bold;
+}
+
+.svg {
+    background-image: url('../../assets/MaskGroup1.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.height {
+    height: 100%;
+}
+
+.heights {
+    height: 100%;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.pad {
+    padding-top: 10%;
+}
+
+.kick-start {
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+}
+
+.bg1 {
+    background-image: url('../../assets/Groupx.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.btn-round {
+    background-color: #ffcc00;
+    border-radius: 60px;
+    color: black !important;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.paragraph {
+    color: white;
+    padding-top: 30%;
+}

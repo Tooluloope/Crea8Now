@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4478 459 640 640">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #54abee;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 60px;
+        font-family: Lato-Regular, Lato;
+      }
+    </style>
+  </defs>
+  <g id="Group_153" data-name="Group 153" transform="translate(3200 19)">
+    <g id="Group_151" data-name="Group 151">
+      <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-1" width="640" height="640" transform="translate(1278 440)"/>
+      <text id="Illustrations" class="cls-2" transform="translate(1598 869)"><tspan x="-153.42" y="0">Illustrations</tspan></text>
+      <path id="Path_88" data-name="Path 88" class="cls-3" d="M0,0V285H285V0ZM268.3,268.3H16.7V16.7H268.3Z" transform="translate(1455.5 511)"/>
+    </g>
+    <path id="Path_89" data-name="Path 89" class="cls-3" d="M253.263,127.337l-77.354,80.018,35.615-64.107v-26l-3.391-2.5A74.557,74.557,0,0,1,177.576,54.75l-.055-8.3H116.386l-.055,8.3a74.556,74.556,0,0,1-30.557,59.993l-3.39,2.5v26l29.337,52.807-64.663-74.64-17.218,15.9L142.082,251.345l5.138,5.22,4.605-5.22L257.656,131.4Zm-106.309-8.519a16.7,16.7,0,0,0-8.35,31.159V210.06L99.083,138.921V125.548a92.693,92.693,0,0,0,23.636-28.975,91.994,91.994,0,0,0,9.88-33.418h28.71a91.994,91.994,0,0,0,9.88,33.418,92.687,92.687,0,0,0,23.636,28.975V138.92L155.3,210.059V149.977a16.7,16.7,0,0,0-8.35-31.159Z" transform="translate(1451.046 504.066)"/>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<nav>
+
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark ">
+
+        <!-- Navbar brand -->
+        <logo><a style="font-size: 59px;color: white;" class="navbar-brand">Crea8NOW</a></logo>
+
+        <!-- Collapsible content -->
+        <links>
+
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto margin">
+                <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                    <a routerLink='' class="nav-link waves-light" mdbRippleRadius>Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink='howitworks' class="nav-link waves-light" mdbRippleRadius>How It Works</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink='services' class="nav-link waves-light" mdbRippleRadius>Services</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink='contact' class="nav-link waves-light" mdbRippleRadius>Contact</a>
+                </li>
+
+                <li class="nav-item signUp">
+                    <a class="pl-5 pr-5 nav-link waves-light" mdbRippleRadius>Sign Up</a>
+                </li>
+            </ul>
+            <!-- Links -->
+
+
+        </links>
+        <!-- Collapsible content -->
+
+    </mdb-navbar>
+    <!--/.Navbar-->
+</nav>

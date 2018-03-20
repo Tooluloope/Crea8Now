@@ -1,0 +1,99 @@
+<header>
+
+    <!--Navbar-->
+    <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        <!-- Navbar brand -->
+        <logo>
+            <a style="font-size: 59px;color: black;" class="navbar-brand">
+                <img class="logo" src="../../assets/new_logo.png" alt="">
+            </a>
+        </logo>
+        <!-- Collapsible content -->
+        <links>
+
+            <!-- Links -->
+            <ul class="navbar-nav ml-auto margin">
+                <li class="nav-item">
+                    <a routerLink='' class="nav-link waves-light" mdbRippleRadius>Home</a>
+                </li>
+                <li class="nav-item ">
+                    <a routerLink='/howitworks' class="nav-link waves-light" mdbRippleRadius>How It Works</a>
+                </li>
+                <li class="nav-item ">
+                    <a routerLink='/services' class="nav-link waves-light" mdbRippleRadius>Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a routerLink='/contact' class="nav-link waves-light" mdbRippleRadius>Contact</a>
+                </li>
+
+                <!-- <li class="nav-item signUp">
+                    <a class="pl-5 pr-5 nav-link waves-light" mdbRippleRadius>Sign Up</a>
+                </li> -->
+            </ul>
+            <!-- Links -->
+
+
+        </links>
+    </mdb-navbar>
+
+
+    <section class="view intro-4">
+        <div class="full-bg-img">
+            <div class="container flex-center">
+                <div class="d-flex align-items-center">
+                    <div class="row flex-center pt-5 mt-3">
+                        <div class="col-md-6 text-center text-md-left mb-5">
+                            <div class="white-text pad1">
+                                <h1 class="display-4 wow fadeInLeft" data-wow-delay="0.3s">Contact us Now</h1>
+                                <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
+                                <h6 class="wow fadeInLeft" data-wow-delay="0.3s">We are always ready to welcome your project and we'll make it our priority to deliver on-time with world class Quality.</h6>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xl-5 offset-xl-1">
+                            <!--Form-->
+                            <form style="color: white !important;">
+                                <!--Header-->
+                                <div class="text-center">
+                                    <h3>Write to us:</h3>
+                                    <hr>
+                                </div>
+
+                                <!--Body-->
+                                <div class="md-form">
+                                    <i class="fa fa-user prefix grey-text whites"></i>
+                                    <input type="text" id="form3" class="form-control " mdbActive>
+                                    <label class="whites" for="form3">Your name</label>
+                                </div>
+                                <div class="md-form">
+                                    <i class="fa fa-envelope prefix grey-text whites"></i>
+                                    <input type="text" id="form2" class="form-control " mdbActive>
+                                    <label class="whites" for="form2">Your email</label>
+                                </div>
+
+                                <!--Textarea with icon prefix-->
+                                <div class="md-form">
+                                    <i class="fa fa-pencil prefix grey-text whites"></i>
+                                    <textarea type="text" id="form8" class="md-textarea "></textarea>
+                                    <label class="whites" for="form8">Your message</label>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-outline-white" mdbRippleRadius>Submit</button>
+                                    <hr>
+                                    <fieldset class="form-group">
+                                        <input type="checkbox" id="checkbox1">
+                                        <label for="checkbox1">Subscribe me to the newsletter</label>
+                                    </fieldset>
+                                </div>
+
+                            </form>
+                            <!--/.Form-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>

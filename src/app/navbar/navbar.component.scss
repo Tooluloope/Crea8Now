@@ -1,0 +1,38 @@
+logo {
+    font-family: 'Rancho', cursive;
+}
+
+@media (min-width: 992px) {
+    li {
+        margin: 0 20px;
+    }
+}
+
+.signUp {
+    background-color: white;
+    border: 0;
+    border-radius: 50px;
+}
+
+.signUp:hover {
+    background-color: #54ABEE;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.signUp a {
+    color: #54ABEE !important;
+    font-weight: bold;
+}
+
+.signUp a:hover {
+    color: white !important;
+    font-weight: bold;
+}
+
+.active a {
+    padding: 0.5rem 2rem;
+    border: 1px solid black;
+    color: black !important;
+    font-weight: bold;
+}
